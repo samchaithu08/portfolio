@@ -386,6 +386,55 @@ body {
 .service-info i {
   font-size: 8rem;
 }
+
+.skills {
+  background: var(--second-bg-color);
+  padding: 10rem 12%;
+  color: var(--text-color);
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 6rem;
+  margin-bottom: 5rem;
+  color: var(--text-color);
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 2rem;
+  padding: 3rem;
+  box-shadow: 0 0 10px var(--main-color);
+  transition: 0.4s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px var(--main-color);
+}
+
+.skill-card img {
+  width: 80px; /* Adjust the size based on the logo image */
+  margin-bottom: 1.5rem;
+}
+
+.skill-card h4 {
+  font-size: 2rem;
+  color: var(--text-color);
+}
+
 .projects {
   background: url(background.jpg) center no-repeat;
   background-size: cover;
