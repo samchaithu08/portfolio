@@ -443,6 +443,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
+  justify-content: center;
   margin: 5rem 0;
   gap: 3rem;
   row-gap: 5rem;
